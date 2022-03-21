@@ -1,0 +1,10 @@
+--- 
+apiVersion: 1
+datasources: 
+  - name: prometheus
+    access: proxy
+    editable: true
+    orgId: 1
+    type: prometheus
+    url: "http://${prometheus_service}.${prometheus_namespace}.svc:${prometheus_port}"
+    version: 1
