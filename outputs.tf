@@ -7,3 +7,4 @@ output "gke_auth_regional" {
     cluster_ca_certificate = "${module.cluster_regional.cluster_ca_certificate}"
   }
 }
+this is test file
